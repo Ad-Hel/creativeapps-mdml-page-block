@@ -1,0 +1,20 @@
+.mdml-page {
+	background-color: #fff;
+	color: #212529;
+	padding: 2px;
+    position: relative;
+    padding: 5rem 5vw;
+    margin: 5rem 15rem;
+}
+html :where(.editor-styles-wrapper) {
+    background: #f5f5ff;
+}
+.text-white {
+    color: #fff !important;
+}
+.bg-primary {
+    background-color: #00F !important;
+}
+.bg-secondary {
+    background-color: #F00 !important;
+}

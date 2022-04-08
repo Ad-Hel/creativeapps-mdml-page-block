@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "creativeapps/mdml-page-block",
+	"version": "0.1.0",
+	"title": "MDML Page",
+	"category": "widgets",
+	"icon": "edit-page",
+	"description": "Permet l'ajout d'un bloc Gutenberg MDML page dans une page.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "mdml-page-block",
+	"attributes": {
+	  "styleClass": {
+	    "type": "string",
+	    "default": "bg-white"
+	  }
+	},
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
